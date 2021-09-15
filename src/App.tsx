@@ -1,9 +1,11 @@
-import Title from '../src/components/Title'
+import Title from '../src/components/Title';
+import Routes from './routes';
+import '../src/assets/Styles/global.scss';
+
 function App() {
   return (
       <>
-        <h1>Amanda</h1>
-        <Title />
+        <Routes />
       </>
   );
 }
