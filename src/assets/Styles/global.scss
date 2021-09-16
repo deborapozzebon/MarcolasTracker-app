@@ -1,11 +1,13 @@
 *{
-    margin: 0px;
-    padding: 0rem;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    outline: none;
+    outline: none;  
 }
 
 html, body, #root{
-    height: 100vh;
-    background-color: #29B6D1; 
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%)no-repeat;
+    color: #FFF;
 }

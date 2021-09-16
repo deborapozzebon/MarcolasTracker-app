@@ -1,10 +1,11 @@
 import { LocalStyle } from './style';
+import Title from '../../components/Title';
 
 const Local = () => {
     return (
         <LocalStyle>
-            <h1>Teste</h1>
-        </LocalStyle>
+            <Title />
+        </LocalStyle>        
     )
 }
 

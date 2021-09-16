@@ -3,7 +3,7 @@ import { SubtitleStyle } from './style';
 const Subtitle = () => {
     return (
         <SubtitleStyle>
-            <h3>Olá</h3> 
+            <p>Viagem pra Floripa em setembro com os migos</p> 
         </SubtitleStyle>
     )
 }

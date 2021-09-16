@@ -1,6 +1,10 @@
+import { TitleStyle } from "./style";
+
 const Title = () => {
     return (
-        <h2> Titulo </h2>
+        <TitleStyle>
+            <h1>Rolezito nice do Marcola :)</h1>
+        </TitleStyle>        
     )
 }
 
