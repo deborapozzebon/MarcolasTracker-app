@@ -23,7 +23,7 @@ export const ButtonGoStyle = styled.div`
                 border-radius: 30px;
                 cursor: pointer;     
                 font-size: 35px;
-                color: #8D734B;   
+                color: #15C3D6;    
                 }
         }
 `
