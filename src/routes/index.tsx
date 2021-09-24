@@ -4,6 +4,7 @@ import { Switch } from 'react-router';
 import Home from '../pages/Home';
 import Local from '../pages/Local';
 import Form from '../pages/Form';
+import FormComplete from '../pages/FormComplete'
 
 const Routes = () => {
     return (
@@ -14,7 +15,8 @@ const Routes = () => {
             <Switch>
                 <PublicRouter path="/" exact={true} Component={Home} />
                 <PublicRouter path="/local" exact={true} Component={Local} />   
-                <PublicRouter path="/form" exact={true} Component={Form} />            
+                <PublicRouter path="/form" exact={true} Component={Form} />   
+                <PublicRouter path="/complete" exact={true} Component={FormComplete} />      
             </Switch>
         </BrowserRouter>
     )

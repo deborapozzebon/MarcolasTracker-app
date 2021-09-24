@@ -2,6 +2,10 @@ import { AddPictureStyle } from './style';
 
 const AddPicture = () => {
     return (
-        <AddPictureStyle />
+        <AddPictureStyle>
+            <button>+</button>
+        </AddPictureStyle>
     )
 }
+
+export default AddPicture 

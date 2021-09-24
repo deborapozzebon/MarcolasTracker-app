@@ -1,18 +1,21 @@
 import styled from "styled-components";
 
 export const AddPictureStyle = styled.div`
-    padding: 10px; 
-    position: relative; 
 
     label {
+        display: inline;
+        position: relative;
         font: 600 16px 'Nunito', sans-serif;
         color: #8FA7B2;
     }
 
     input {
+        display: inline;
+        position: relative;
+        margin: 10px;
         width: 96px;
         height: 96px; 
-        background: #F5F8FA;
+        background-color: #F5F8FA;
         border: 1px dashed #96D2F0;
         box-sizing: border-box;
         border-radius: 20px;

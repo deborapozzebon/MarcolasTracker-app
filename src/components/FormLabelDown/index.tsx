@@ -5,3 +5,5 @@ const FormLabelDown = () => {
         <FormLabelDownStyle />
     )
 }
+
+export default FormLabelDown 
