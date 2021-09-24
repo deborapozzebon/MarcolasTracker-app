@@ -22,11 +22,10 @@ export const FormStyle = styled.div`
         bottom: 89.27%;
     }
 
-    .top {
-        height: 105px;
-        display: flex;  
-        justify-content: center;
-        align-items: center;
+    .top {        
+        position: absolute;
+        right: 550px; 
+        top: 42px;
         font: 600 18px 'Nunito', sans-serif;
         color: #8FA7B3;
     }
